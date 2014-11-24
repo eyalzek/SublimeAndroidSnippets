@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 @Override
-protected void onCreate() {
-	super.onCreate();
-
-	${1}
+protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+    setContentView(R.layout.${1});
+	${2}
 }
 ]]></content>
 	<tabTrigger>ad-onCreate</tabTrigger>

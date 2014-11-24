@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@Override
+public class ${1:ClassName} extends ${2:ActivityName} {
+    ${3}
+}
+]]></content>
+    <tabTrigger>ad-class</tabTrigger>
+    <scope>source.java</scope>
+</snippet>
